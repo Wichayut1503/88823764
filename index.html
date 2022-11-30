@@ -3,6 +3,150 @@
     <head>
         <body>
             <h1> Heading 1 </h1>
+            <h2> Heading 2 </h2>
+            <h3> Heading 3 </h3>
+
+            <p>
+                <u><i><b>This paragraphcontains&nbsp;&nbsp;</b></i></u>
+                <br>
+                a lot of linesin the source code
+                ,but the browser ignores it. &#128512;
+
+            </p>
+            <ul>  
+                <li>Coffee</li>  
+                <li>Tea</li>  
+                <li>Milk</li>
+            </ul>
+            <ol>  
+                <li>Coffee</li> 
+                <li>Tea</li>  
+                <li>Milk</li>
+            </ol>
+            <dl>  
+                <dt>Coffee</dt>  
+                <dd>- black hot drink</dd>  
+                <dt>Milk</dt>  
+                <dd>- white cold drink</dd>
+            </dl>
+
+            <a href="https://www.google.com/" target="_blank">Visit Google</a>
+            <br>
+            <a href="https://www.google.com/" target="_self">Visit Google</a>
+            <table border="2" width = "100%">  
+                <tr>    
+                    <th>Company</th>    
+                    <th>Contact</th>    
+                    <th>Country</th>  
+                </tr>  
+                <tr>    
+                    <td>Alfreds Futterkiste</td>   
+                    <td>Maria Anders</td>    
+                    <td>Germany</td>  
+                </tr>
+            </table>
+            <br>
+            <table border="2" width = "100%">
+                <tr>
+                    <th></th>
+                    <th scope="col">Saturday</th>
+                    <th scope="col">Sunday</th>
+                </tr>
+                <tr>
+                    <th scope="row">Tickets sold:</th>
+                    <td>120</td>
+                    <td>135</td>
+                </tr>
+                <tr>
+                    <th scope="row">Total sales:</th>
+                    <td>$600</td>
+                    <td>$675</td>
+                </tr>
+            </table>
+            <br>
+        
+            <br>
+            <form action = "#">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>  
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname">
+                <br>
+                <input type = "submit"> <br>
+                <button type = "submit"></button> <br>
+                <input type = "reset"><br>
+                <button type = "reset"></button> 
+                <br>
+                <input type="date"><br>
+                <input type="file" id = "myfile"><br>
+                <label for="username">Username :</label>
+                <input type="text" id="username" name="username"><br>  
+                <label for="password">Password :</label>
+            
+                <input type="password"><br>
+                <label for="toei"> Text : </label>
+                <textarea id = "toei" rows = "10"></textarea><br>
+                <label for = "r1"> radio value m</label>
+                <input type = "radio" id = "r1"><br>
+                <input type = "checkbox"><br>
+
+                <select>
+                    <option selected disabled> เลือก </option>
+                    <option value = "1"> สีแดง </option>
+                    <option value = "2"> สีเขียว </option>
+                    <option value = "3"> สีน้ำเงิน </option>
+                    <option value = "4"> สีเหลือง </option>
+                    <option value = "5"> สีม่วง </option>
+                </select><br>
+                <input type = "date"><br>
+                <input type = "number"><br>
+
+            </form>
+
+            <br><br><br>
+            <form>
+            <h1>Workshop #HTML - FORM</h1>
+            <label for="ffname" width>ชื่อ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="ffname" name="ffname"> <br>
+            <label for="llname">นามสกุล&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="llname" name="llname"><br>
+            <label for="date">วัน/เดือน/ปี &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="date" id = "date" ><br>
+            <label for="age">อายุ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type = "number"><br>
+            <label >เพศ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label> 
+            <input type="radio" id = "m" name = "f" value="ชาย">
+            <label for = "m">ชาย</label> 
+            <input type="radio" id = "w" name = "f" value="หญิง">
+            <label for = "w">หญิง</label> <br>
+            <label for = "file"> รูป &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="file" id = "file"><br>
+            <label for = "address"> ที่อยู่ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <textarea id = "address" ></textarea><br>
+            <br>
+            <label for = "color"> สีที่ชอบ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 </label>
+            <select>
+                <option selected disabled> เลือก </option> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <option value = "1"> สีแดง </option>
+                <option value = "2"> สีเขียว </option>
+                <option value = "3"> สีน้ำเงิน </option>
+                <option value = "4"> สีเหลือง </option>
+                <option value = "5"> สีม่วง </option>
+            </select><br>
+            <label >เพลงที่ชอบ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label> 
+            <input type="radio" id = "p" name = "f" value="เพื่อชีวิต">
+            <label for = "p">เพื่อชีวิต</label> 
+            <input type="radio" id = "l" name = "f" value="หญิง">
+            <label for = "l">ลูกทุ่ง</label>
+            <input type="radio" id = "o" name = "f" value="อื่นๆ">
+            <label for = "o">อื่นๆ</label>  <br>
+            <input type="checkbox" id = "true"> <label for = "true" >ยินยอมให้เก็บข้อมูล</label><br>
+            <input type = "reset">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      
+            <input type = "submit"> 
+
+            </form>
         </body>
+    
     </head>
 </html>
